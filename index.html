@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Tarjeta de presentación digital de Eusebio Frank Oviedo Turpo, estudiante de Diseño y Desarrollo de Software en Tecsup.">
+  <title>Frank Oviedo | Tarjeta digital</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@500;700&family=IBM+Plex+Sans:wght@400;500&family=IBM+Plex+Mono:wght@400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <main class="wrap">
+    <article class="card" aria-label="Tarjeta de presentación digital">
+      <div class="card__info">
+        <div class="monogram" aria-hidden="true">FO</div>
+        <h1>Eusebio Frank Oviedo Turpo</h1>
+        <p class="role"><strong>Diseño y Desarrollo de Software</strong> · Tecsup<br>Arequipa, Perú</p>
+        <ul class="tags" aria-label="Tecnologías">
+          <li>Flutter</li><li>Swift</li><li>Next.js</li><li>Node.js</li>
+          <li>Django</li><li>AWS</li><li>Java</li>
+        </ul>
+      </div>
+      <figure class="qr">
+        <img class="qr__img" src="assets/qr.svg" width="200" height="200"
+             alt="Código QR que abre esta tarjeta con portafolio y repositorios">
+        <figcaption>
+          <span class="qr__cta">Escanea mi tarjeta</span>
+          <small>portafolio · GitHub · contacto</small>
+        </figcaption>
+      </figure>
+    </article>
+
+    <section class="contact" aria-label="Datos de contacto">
+      <dl>
+        <div class="row">
+          <dt>Correo</dt>
+          <dd id="mail"><a href="mailto:oviedofrank6@gmail.com">oviedofrank6@gmail.com</a></dd>
+          <button type="button" data-copy="mail">Copiar</button>
+        </div>
+        <div class="row">
+          <dt>Teléfono</dt>
+          <dd id="tel"><a href="tel:+51930416736">+51 930 416 736</a></dd>
+          <button type="button" data-copy="tel">Copiar</button>
+        </div>
+        <div class="row">
+          <dt>Ubicación</dt>
+          <dd>Arequipa, Perú</dd>
+        </div>
+      </dl>
+    </section>
+
+    <nav class="links" aria-label="Enlaces profesionales">
+      <a class="btn btn--primary" href="https://seridem06.github.io" target="_blank" rel="noopener">Portafolio web</a>
+      <a class="btn" href="https://github.com/seridem06" target="_blank" rel="noopener">Repositorios · github.com/seridem06</a>
+    </nav>
+
+    <footer>Tarjeta de presentación digital · Marca personal</footer>
+  </main>
+  <script src="js/main.js"></script>
+</body>
+</html>
